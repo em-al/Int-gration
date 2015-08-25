@@ -1,0 +1,57 @@
+body{
+  font-family:'Questrial';
+  text-align:center;
+}
+
+header{
+  background:#2056ac;
+  width:100%;
+  height:300px; /* A verifier */
+  color:white;
+  text-align:center;
+  font-size:56px;
+  font-weight:bold;
+  box-sizing: border-box;
+  padding:80px;
+}
+/*------------------nav-------------------*/
+nav ul{
+  list-style:none;
+  color:white;
+  height:100%
+}
+nav ul li{
+  display:inline-block;
+  width:120px;
+  height:100%;
+  line-height:50px;
+  font-weight:bold;
+}
+nav ul li:hover{
+  color:#2056ac;
+  background:white;
+  border-top-left-radius:1em;
+border-top-right-radius:1em;
+}
+
+nav{
+  background:#2056ac;
+  font-size:14px;
+  width:100%;
+  color:white;
+  text-align:center;
+  height:50px; /*--------A verifier------------*/
+}
+ul li{
+  display:inline-block;
+}
+
+
+/*---------------image---------------------*/
+#imheader{
+  background:url(images/banner.jpg);
+  display:inline-block;
+  width:1200px;
+  height:400px;
+  margin-top:40px
+}
